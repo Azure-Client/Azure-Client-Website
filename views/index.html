@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="viewport" content="width=device-width" />
+
+  <!-- Favicon and title -->
+  <link rel="icon" href="/static/logo.png">
+  <title>Azure Client</title>
+
+  <!-- Halfmoon CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <button class="btn btn-action" type="button">
+          <i class="fa fa-bars" aria-hidden="true" onclick="halfmoon.toggleSidebar();halfmoon.initStickyAlert({content:&quot;You can also press <kbd>shift</kbd> + <kbd>s</kbd> to toggle the sidebar.&quot;,title:&quot;Tip&quot;,hasDismissButton:!0,timeShown:5e3});"></i>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+        <p style="width:5px;"></p> <!-- spacing -->
+        <button class="btn btn-action" type="button">
+          <i class="fas fa-cloud-sun" aria-hidden="true" onclick="halfmoon.toggleDarkMode();halfmoon.initStickyAlert({content:&quot;You can also press <kbd>shift</kbd> + <kbd>d</kbd> to toggle dark mode.&quot;,title:&quot;Tip&quot;,hasDismissButton:!0,timeShown:5e3});"></i>
+          <span class="sr-only">Toggle dark mode</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <!-- Sidebar brand -->
+        <a href="/" class="sidebar-brand">
+          <img src="/static/logo.png" alt="Azure Client Logo">
+          Azure Client
+        </a>
+        <!-- Sidebar links and titles -->
+        <h5 class="sidebar-title">Information</h5>
+        <div class="sidebar-divider"></div>
+        <a href="/" class="sidebar-link active">Home</a>
+        <a href="/staff" class="sidebar-link">Developers & Staff</a>
+        <br />
+        <h5 class="sidebar-title">Installation</h5>
+        <div class="sidebar-divider"></div>
+        <a href="#" class="sidebar-link">Injector</a>
+        <a href="#" class="sidebar-link">DLL (legit)</a>
+        <a href="#" class="sidebar-link">DLL (hacks)</a>
+        <a href="#" class="sidebar-link">DLL (both)</a>
+      </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+     <div class="card">
+  <h2 class="card-title">
+    Azure Client is back!
+  </h2>
+  <p>
+    Azure client is finaly back!
+  </p>
+</div>
+    </div>
+    <!-- Content wrapper end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+</html>
