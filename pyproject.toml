@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "repl_python3_beta_Azure-Client-Website"
+name = "Azure Client Website"
 version = "0.1.0"
 description = ""
-authors = ["UCYT5040 <<>>"]
+authors = ["UCYT5040, LikeToAccess"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
